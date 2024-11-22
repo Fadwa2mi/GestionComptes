@@ -1,0 +1,79 @@
+.account-list-container {
+    padding: 20px;
+    background: #f7f8fc;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.filter-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.filter-input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.add-button {
+    padding: 10px 20px;
+    border: none;
+    background: #4caf50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-button:hover {
+    background: #45a049;
+}
+
+.account-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.account-item {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: 15px;
+    margin: 10px 20%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.account-actions button {
+    margin-left: 10px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-button {
+    background: #e74c3c;
+    color: white;
+}
+
+.delete-button:hover {
+    background: #c0392b;
+}
+
+.transaction-button {
+    background: #3498db;
+    color: white;
+}
+
+.transaction-button:hover {
+    background: #2980b9;
+}
